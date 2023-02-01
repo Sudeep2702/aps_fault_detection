@@ -1,4 +1,4 @@
-# Provide the mongodb localhost url to connect python to mongodb.
+ #Provide the mongodb localhost url to connect python to mongodb.
 import pymongo
 import pandas as pd
 import json
@@ -15,3 +15,4 @@ if __name__=='__main__':
     print(json_record[0])
  #dumping into mongodb
     client[Data_base_name][collection_name].insert_many(json_record)
+#
