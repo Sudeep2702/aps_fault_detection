@@ -2,6 +2,7 @@ README.md
 setup.py
 sensor/Exception.py
 sensor/__init__.py
+sensor/config.py
 sensor/logger.py
 sensor.egg-info/PKG-INFO
 sensor.egg-info/SOURCES.txt
